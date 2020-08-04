@@ -1,5 +1,6 @@
 import React from 'react'
 import { getHeroesByPublisher } from '../../selectors/getHeroesByPublisher';
+import { HeroCard } from './HeroCard';
 
 export const Heroes = ({ publisher }) => {
 
@@ -9,9 +10,7 @@ export const Heroes = ({ publisher }) => {
     <div>
       {
         heroes.map(hero => (
-          <div key={ hero.id }>
-            { hero.superhero }
-          </div>
+          <HeroCard hero={hero} key={ hero.id } />
         ))
       }
     </div>
