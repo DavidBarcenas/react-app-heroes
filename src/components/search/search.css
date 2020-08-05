@@ -1,0 +1,35 @@
+.title__section {
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+  opacity: 0.65;
+}
+
+.search__form {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  margin: auto;
+}
+
+.search__form input {
+  color: #fff;
+}
+
+.search__wrapper--card {
+  text-align: center;
+  margin-top: 2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.search__results {
+  width: 23%;
+  margin: .5em;
+}

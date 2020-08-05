@@ -1,16 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import './navbar.css'
 
 export const Navbar = () => {
   return (
-    <nav className="teal">
+    <nav className="main__nav red">
       <div className="nav-wrapper">
-        <Link to="/" className="brand-logo">Heroes</Link>
+        <NavLink exact to="/" className="brand-logo">Heroes</NavLink>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
-          <li><Link to="/marvel">Marvel</Link></li>
-          <li><Link to="/dc">DC</Link></li>
-          <li><Link to="/search">Search</Link></li>
-          <li><Link to="/login">Logout</Link></li>
+          <li><NavLink activeClassName="active" to="/marvel">Marvel</NavLink></li>
+          <li><NavLink activeClassName="active" to="/dc">DC</NavLink></li>
+          <li><NavLink activeClassName="active" to="/search">Search</NavLink></li>
+          <li><NavLink activeClassName="active" to="/login">Logout</NavLink></li>
         </ul>
       </div>
     </nav>

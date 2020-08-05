@@ -1,0 +1,26 @@
+.hero__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.hero__img {
+  width: 30%;
+}
+
+.hero__img img {
+  width: 100%;
+}
+
+.hero__data {
+  width: 65%;
+  margin-left: 2em;
+  color: #fff;
+}
+
+.hero__title {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-size: 150px;
+  word-wrap: break-word;
+}

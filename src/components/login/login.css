@@ -1,0 +1,22 @@
+.login__wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__box {
+  width: 250px;
+  padding: 1em;
+}
+
+.login__logo {
+  width: 100%;
+  object-fit: cover;
+}
+
+.login__btn {
+  display: block;
+  width: 100%;
+}

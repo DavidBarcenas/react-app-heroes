@@ -1,0 +1,9 @@
+.main__nav {
+  padding: 0 1em;
+}
+
+.active,
+.active:hover {
+  background-color: #fffffa;
+  color: tomato;
+}

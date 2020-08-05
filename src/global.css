@@ -1,0 +1,11 @@
+body {
+  background: url(/assets/bg.gif);
+  /* background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; */
+}
+
+.main__views {
+  padding: 1em;
+}

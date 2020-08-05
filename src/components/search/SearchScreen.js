@@ -4,6 +4,7 @@ import { useForm } from '../../hooks/useForm'
 import { HeroCard } from '../heroes/HeroCard'
 import { useLocation } from 'react-router-dom'
 import { getHeroesByName } from '../../selectors/getHeroesByName'
+import './search.css'
 
 export const SearchScreen = ({ history }) => {
 
@@ -23,18 +24,19 @@ export const SearchScreen = ({ history }) => {
 
   return (
     <div>
-      <h1>Search</h1>
+      <span className="title__section">Search</span>
 
-      <form onSubmit={handleSearch}>
+      <form onSubmit={handleSearch} className="search__form">
         <input type="text" placeholder="Find your hero" name="search" onChange={handleInputChange} value={values.search} autoComplete="off" />
-        <button type="submit">Search</button>
+        <button type="submit" className="btn-floating btn-large waves-effect waves-light red"><i className="material-icons">search</i></button>
       </form>
 
-      <div>
-        <h4>Results</h4>
+      <div className="search__wrapper--card">
         {
           heroesFiltered.map(hero => (
-            <HeroCard key={hero.id} hero={hero} />
+            <div className="search__results">
+              <HeroCard key={hero.id} hero={hero} />
+            </div>
           ))
         }
       </div>

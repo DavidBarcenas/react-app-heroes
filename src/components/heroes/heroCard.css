@@ -1,0 +1,11 @@
+.herocard {
+  border: .5em solid #fff;
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.herocard img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
