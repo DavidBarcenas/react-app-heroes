@@ -7,3 +7,7 @@
   background-color: #fffffa;
   color: tomato;
 }
+
+.activeUser {
+  color: #000;
+}
