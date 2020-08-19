@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> testing should render correctly 1`] = `
+<nav
+  className="main__nav red"
+>
+  <div
+    className="nav-wrapper"
+  >
+    <a
+      aria-current={null}
+      className="brand-logo"
+      onClick={[Function]}
+    >
+      Heroes
+    </a>
+    <ul
+      className="right hide-on-med-and-down"
+      id="nav-mobile"
+    >
+      <li>
+        <a
+          aria-current={null}
+          onClick={[Function]}
+        >
+          Marvel
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          onClick={[Function]}
+        >
+          DC
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </li>
+      <li
+        className="activeUser"
+      >
+        Davee
+      </li>
+      <li>
+        <button
+          className="waves-effect waves-light btn"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
