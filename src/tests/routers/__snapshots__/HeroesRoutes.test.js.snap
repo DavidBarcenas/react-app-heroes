@@ -1,0 +1,207 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeroesRoutes /> testing should render correctly 1`] = `
+Array [
+  <nav
+    className="main__nav red"
+  >
+    <div
+      className="nav-wrapper"
+    >
+      <a
+        aria-current={null}
+        className="brand-logo"
+        href="/"
+        onClick={[Function]}
+      >
+        Heroes
+      </a>
+      <ul
+        className="right hide-on-med-and-down"
+        id="nav-mobile"
+      >
+        <li>
+          <a
+            aria-current="page"
+            className="active"
+            href="/marvel"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Marvel
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={null}
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </li>
+        <li
+          className="activeUser"
+        />
+        <li>
+          <button
+            className="waves-effect waves-light btn"
+            onClick={[Function]}
+          >
+            Logout
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>,
+  <div
+    className="main__views"
+  >
+    <div>
+      <div
+        className="heroes__wrapper"
+      >
+        <div
+          className="herocard animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-spider"
+            onClick={[Function]}
+          >
+            <img
+              alt="Spider Man"
+              src="./assets/heroes/marvel-spider.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="herocard animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-captain"
+            onClick={[Function]}
+          >
+            <img
+              alt="Captain America"
+              src="./assets/heroes/marvel-captain.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="herocard animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-iron"
+            onClick={[Function]}
+          >
+            <img
+              alt="Iron Man"
+              src="./assets/heroes/marvel-iron.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="herocard animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-thor"
+            onClick={[Function]}
+          >
+            <img
+              alt="Thor"
+              src="./assets/heroes/marvel-thor.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="herocard animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-hulk"
+            onClick={[Function]}
+          >
+            <img
+              alt="Hulk"
+              src="./assets/heroes/marvel-hulk.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="herocard animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-wolverine"
+            onClick={[Function]}
+          >
+            <img
+              alt="Wolverine"
+              src="./assets/heroes/marvel-wolverine.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="herocard animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-daredevil"
+            onClick={[Function]}
+          >
+            <img
+              alt="Daredevil"
+              src="./assets/heroes/marvel-daredevil.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="herocard animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-hawkeye"
+            onClick={[Function]}
+          >
+            <img
+              alt="Hawkeye"
+              src="./assets/heroes/marvel-hawkeye.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="herocard animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-cyclops"
+            onClick={[Function]}
+          >
+            <img
+              alt="Cyclops"
+              src="./assets/heroes/marvel-cyclops.jpg"
+            />
+          </a>
+        </div>
+        <div
+          className="herocard animate__animated animate__fadeIn"
+        >
+          <a
+            href="/hero/marvel-silver"
+            onClick={[Function]}
+          >
+            <img
+              alt="Silver Surfer"
+              src="./assets/heroes/marvel-silver.jpg"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
