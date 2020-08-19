@@ -59,5 +59,4 @@ describe('<HeroScreen /> testing', () => {
     expect(historyMock.goBack).toHaveBeenCalled()
     expect(historyMock.push).not.toHaveBeenCalled()
   })
-  
 })

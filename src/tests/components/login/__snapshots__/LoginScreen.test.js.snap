@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginScreen /> testing should render correctly 1`] = `
+<div
+  className="login__wrapper"
+>
+  <div
+    className="login__box card"
+  >
+    <img
+      alt="MarvelDc"
+      className="login__logo"
+      src="./assets/lgo.jpg"
+    />
+    <button
+      className="login__btn btn red waves-effect waves-light"
+      onClick={[Function]}
+    >
+      Login
+    </button>
+  </div>
+</div>
+`;
