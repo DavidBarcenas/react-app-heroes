@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SearchScreen /> testing should render correcly with default values 1`] = `
+<div>
+  <span
+    className="title__section"
+  >
+    Search
+  </span>
+  <form
+    className="search__form"
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      name="search"
+      onChange={[Function]}
+      placeholder="Find your hero"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn-floating btn-large waves-effect waves-light red"
+      type="submit"
+    >
+      <i
+        className="material-icons"
+      >
+        search
+      </i>
+    </button>
+  </form>
+  <div
+    className="search__wrapper--card"
+  />
+</div>
+`;
